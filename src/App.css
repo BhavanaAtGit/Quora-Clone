@@ -1,0 +1,79 @@
+body {
+  background-image: url('background.jpg'); /* Add the path to your background image */
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+header,h2 {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.question-card {
+  background-color: white; /* Change card color */
+  border-radius: 8px;
+  padding: 30px; /* Increase padding to make cards larger */
+  margin: 20px auto; /* Center-align and create space between cards */
+  width: 75vw; /* Set width to 75% of the viewport width */
+  max-width: 800px; /* Add max-width for responsiveness */
+}
+
+.question {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px; /* Increase font size */
+  margin-bottom: 10px;
+}
+
+.answers li {
+  text-align: center;
+  list-style: none;
+  margin: 20px 0; /* Increase margin to separate answers */
+}
+
+button.upvote {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px; /* Add margin to create space between buttons */
+}
+
+button.downvote {
+  background-color: #FF5733; /* You can use your preferred color */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+span.upvotes, span.downvotes {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #e0e0e0; /* Add background color */
+  padding: 4px 10px; /* Add padding */
+  border-radius: 4px; /* Add border radius */
+  margin-top: 5px; /* Create space between answers and upvote/downvote */
+}
+
